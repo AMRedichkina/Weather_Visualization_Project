@@ -1,0 +1,74 @@
+.sidepanel {
+    /* background-color: rgba(168, 166, 166, 0.65); */
+    background-color: rgba(8, 8, 16, 0.65);
+    padding: 1rem;
+    width: 90%;
+    height: 100%;
+}
+
+.sidepanel-region {
+    margin: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #b7b7b7;
+    size: 20;
+}
+
+.sidepanel-input {
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px #13206b;
+    /* box-shadow: 0 0 10px #5541D7; */
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+.sidepanel-input:focus {
+    box-shadow: 0 0 20px #003576;
+}
+
+.sidepanel-button {
+    padding: 0.5rem;
+    color: #4b5563;
+    background-color: #d1d5db;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    width: calc(100% - 2rem); 
+    margin: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidepanel-button:active {
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}
+
+.sidepanel-button:hover {
+    background-color: #9ca3af;
+    transform: translateY(-1px);
+}
+
+.button-heatmap-active {
+    background-color: #6b7280;
+    color: #fff;
+}
+
+.button-heatmap-inactive {
+    background-color: #b7b7b7;
+    color: #fff;
+}
+
+.button-scatterplot-active {
+    background-color: #6b7280;
+    color: #fff;
+}
+
+.button-scatterplot-inactive {
+    background-color: #b7b7b7;
+    color: #fff;
+}
